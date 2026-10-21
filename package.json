@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-modulo-4",
+  "version": "1.0.0",
+  "description": "Proyecto práctico del Módulo 4",
+  "main": "index.html",
+  "scripts": {
+    "scss": "node-sass -o css/ scss/"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

@@ -1,0 +1,20 @@
+$color-amarillo: #ffc107;
+$color-rojo: #dc3545;
+$color-verde: #28a745;
+
+@mixin estilos-personalizados($margen, $relleno, $color-fondo) {
+    margin: $margen;
+    padding: $relleno;
+    background-color: $color-fondo;
+    border-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    @include estilos-personalizados(0px, 20px, #f8f9fa);
+}
+
+.alerta-exito {
+    @include estilos-personalizados(10px, 15px, $color-verde);
+    color: #fff;
+}
